@@ -1,6 +1,6 @@
 import React from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
-// import Home from "./pages/Home";
+import Home from "./pages/Home";
 // import Projects from "./pages/Projects";
 import NavB from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -11,12 +11,12 @@ function App() {
       <div>
         <NavB />
         <Switch>
-          {/* <Route exact path="/">
+          <Route exact path="/">
             <Home />
-          </Route> */}
-          {/* <Route exact path="/home" component={Home}>
+          </Route>
+          <Route exact path="/" component={Home}>
             <Home />
-          </Route> */}
+          </Route>
           {/* <Route exact path="/projects" component={Projects}>
             <Projects />
           </Route> */}
