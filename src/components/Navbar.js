@@ -1,5 +1,5 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
 import { Navbar, NavLink, NavbarBrand, NavItem, Nav } from "reactstrap";
 
 
@@ -12,10 +12,10 @@ function NavB() {
                 <NavbarBrand style={{color: "white"}} href="/">Andrew Chappell</NavbarBrand>
                 </NavItem>
                 <NavItem>
-                <NavLink style={{color: "white"}} href="/">Home</NavLink>
+                <NavLink style={{color: "white"}} href="#/home">Home</NavLink>
                 </NavItem>
                 <NavItem className="navbar-right">
-                <NavLink style={{color: "white"}} href="/projects">Projects</NavLink>
+                <NavLink style={{color: "white"}} href="#/projects">Projects</NavLink>
                 </NavItem>
                 </Nav>
             </Navbar>
